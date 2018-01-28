@@ -1,0 +1,4 @@
+# MAC cruft
+_MACOSX/
+.DS_Store
+*.rtf
