@@ -1,10 +1,10 @@
-# ![Streeva](images/streevalogo.png "Streeva") Coding Challenges
+# ![Streeva](images/careers.png "Streeva") Coding Challenges
 
-Welcome to the careers repository for Streeva, to see what positions we currently have open please visit [our careers page](https://streeva.com/careers/)
+Welcome to the careers repository for Streeva, to see what positions we currently have open please visit [the careers page](https://streeva.com/careers/) on our website.
 
-We understand interviews themselves can be stressful and don't always allow you to present your capabilities as well as you might prefer, to try and help with this part of our interview process involves a "take-home" code challenge.  These tasks are designed to not require more than 2-3 hours to complete but you are free to spend as much time as you would like on them.
+We understand interviews themselves can be stressful and don't always allow you to present your skills as well as you might prefer, so to help with this our interview process involves a "take-home" code test. These tasks are designed to take no more than 2-3 hours to complete but you are free to spend as much time as you would like on them.
 
-For the coding challenge for the position relevant to you:
+Up for the challenge? Have a go at one of our tests by clicking the position most relevant to you here:
 
 * [Frontend Engineer](frontend.engineer/)
 * [Core Engineer](core.engineer/)
