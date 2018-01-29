@@ -11,16 +11,16 @@ Your time is precious so please don't spend any longer than 3 hours on this. Tha
 
 ### Assets
 
-#####Design Files
+####Design Files
 We have included the original artwork files (Sketch).
 
 If you don’t have sketch, please work from the supplied screenshots instead. Alternatively you could possibly download a free trial of Sketch for this test from [sketchapp.com](https://sketchapp.com/)
 
-#####Google Fonts used
+####Google Fonts used
 * Oleo Script
 * Source Sans Pro
 
-#####Images
+####Images
 * Logo
 * Verify email image
 * Hide Icon
