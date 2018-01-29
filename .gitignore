@@ -2,3 +2,7 @@
 _MACOSX/
 .DS_Store
 *.rtf
+
+# .NET cruft
+bin/
+obj/

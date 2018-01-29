@@ -1,4 +1,4 @@
-# ![Streeva](images/careers.png "Streeva") Coding Challenges
+# ![Streeva](images/careers.png "Streeva") Streeva Code Tests
 
 Welcome to the careers repository for Streeva, to see what positions we currently have open please visit [the careers page](https://streeva.com/careers/) on our website.
 
@@ -13,5 +13,5 @@ Please submit your solutions to careers@streeva.com
 
 Things to include in your submission:
 
-1. Source code, or details of how to access your solution (such as drop box, or github links)
+1. Source code, or details of how to access your solution (such as Dropbox, or GitHub links)
 2. An outline of how long it took you to reach your solution
