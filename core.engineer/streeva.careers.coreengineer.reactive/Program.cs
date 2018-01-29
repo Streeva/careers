@@ -1,5 +1,5 @@
 ﻿
-namespace streeva.examples.profiler
+namespace streeva.careers.coreengineer.reactive
 {
     using System;
     using System.Threading;

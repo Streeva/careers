@@ -1,5 +1,5 @@
 
-namespace streeva.examples.profiler
+namespace streeva.careers.coreengineer.reactive
 {
     using System;
     using System.Reactive.Linq;
@@ -18,7 +18,7 @@ namespace streeva.examples.profiler
         public IObservable<Data> DataFeed => this.dataSubject.AsObservable<Data>();
 
         public void Dispose()
-        { 
+        {
             this.dataSubject.OnCompleted();
             this.timer.Dispose();
         }

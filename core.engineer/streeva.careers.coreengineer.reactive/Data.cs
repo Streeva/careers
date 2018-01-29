@@ -1,4 +1,4 @@
-namespace streeva.examples.profiler
+namespace streeva.careers.coreengineer.reactive
 {
     public class Data
     {
