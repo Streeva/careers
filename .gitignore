@@ -6,3 +6,4 @@ _MACOSX/
 # .NET cruft
 bin/
 obj/
+*.suo
