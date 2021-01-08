@@ -2,24 +2,7 @@
 
 Complete *one* of the following exercises.
 
-## Exercise 1: System.Reactive test
-
-Included is a console app which through a simple cold observable publishes a stream of "strings" through to the console.
-
-1. Add another concurrent data source *Number* that periodically publishes a random Integer between 0 and 9.
-2. If the latest integer you received is *n* and the latest letter you received is *x*, write out the letter at *x-n*.  E.g. If you have received the sequence *A B C D E F* and the number *2*, you write out *D*.
-3. Suggest ways and/or refactor the example to handle the dispose of data sources in a better way.
-
-### Stretch goals: (These are not compulsory)
-1. Seperate the publisher and subscriber in to seperate processes.
-2. Add in an adequate means of service discovery for the subscriber to find the provider.
-
-## Exercise 2: Azure functions test
-
-1. Replicate the functionality of the reactive test as two or more Azure functions conncted via ServiceBus.
-2. Provide an ARM deploy template for your functions project.
-
-## Exercise 3: Encoding test
+## Exercise 1: Encoding test
 
 Given the following BER-TLV encoded string:
 ```
@@ -38,7 +21,7 @@ Starting from the above example you should get the following output:
 EQ9q1Hjyr_pfSBj1_M2vqAMFH-MYhP2zwhgYfC8u8-g
 ```
 
-## Exercise 4: Service / Docker test
+## Exercise 2: Service / Docker test
 
 For this exercise you can use a language of your choice, although C# or Golang is preferred.
 
