@@ -40,15 +40,15 @@ EQ9q1Hjyr_pfSBj1_M2vqAMFH-MYhP2zwhgYfC8u8-g
 
 ## Exercise 4: Service / Docker test
 
-For this exercise you can used either C# / Golang or a language of choice.
+For this exercise you can use a language of your choice, although C# or Golang is preferred.
 
 1. Implement a service which provides an HTTP endpoint to Base64 Decode supplied Base64 encoded strings.
 2. Write a Dockerfile which will generate a ready-to-run image for your service.
-3. Provide instructions to build your image.
+3. Provide instructions on how to build your image.
 
 ### Stretch goals (not compulsory)
 1. Document the API to your service.
-2. Only docker / docker-compose are required as pre-requisites on the build machine.
+2. To build your project only Docker / Docker-compose is required.
 
 ## Submissions
 
