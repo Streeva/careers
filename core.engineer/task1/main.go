@@ -32,7 +32,7 @@ func ReadTLV(r io.Reader) (*TLV, error) {
 	}
 	err = binary.Read(r, binary.BigEndian, &record.Length)
 	if err != nil {
-		fmt.Errorf("error reading TLV: %s", err)
+		return nil, fmt.Errorf("error reading TLV: %s", err)
 	}
 	record.Value = make([]byte, record.Length)
 	_, err = io.ReadFull(r, record.Value)
