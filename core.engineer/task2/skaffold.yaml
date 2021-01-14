@@ -1,0 +1,21 @@
+apiVersion: skaffold/v2beta3
+kind: Config
+metadata:
+  name: task2
+deploy:
+  kubeContext: minikube
+profiles:
+  - name: dev
+    activation:
+      - command: dev
+    deploy:
+      statusCheckDeadlineSeconds: 600
+      kustomize:
+        paths:
+          - .
+    build:
+      artifacts:
+        - image: demo
+          context: .
+          docker:
+            dockerfile: ./Dockerfile

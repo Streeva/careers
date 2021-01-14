@@ -1,0 +1,31 @@
+swagger: "2.0"
+info:
+  title: "demo."
+  version: "1.0.0"
+  description: "This is a demo server for exercise 2."
+basePath: "/"
+schemes:
+  - "http"
+paths:
+  /base64/decode:
+    post:
+      summary: "base64 decode the supplied string"
+      consumes:
+        - "text/plain"
+      produces:
+        - "application/octet-stream"
+      parameters:
+        - in: "body"
+          name: "base64String"
+          description: "base64 encoded string"
+          required: true
+          schema:
+            type: string
+      responses:
+        "400":
+          description: "Bad request"
+        "200":
+          description: "OK"
+          schema:
+            type: string
+            format: binary
